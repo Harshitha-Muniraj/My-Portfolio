@@ -1,0 +1,122 @@
+.hero{
+    max-width: 63rem;
+    height: 90vh;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    margin-top: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-flex{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+span{
+    position: relative;
+    display: inline-block;
+    z-index: -9;
+}
+span::before{
+    content: ' ';
+    position: absolute;
+    left: 0px;
+    top: 1.9rem;
+    right: 0px;
+    background-image: linear-gradient(to right, #743ad5, #d53a9d);
+    border-radius: 50%;
+    bottom: 1.1rem;
+    width: 20.5rem;
+}
+span img{
+    position: relative;
+    width: 20rem;
+    padding-left: 1rem;
+    bottom: 1.2rem;
+    display: flex;
+    border-radius: 42%;
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.8rem;
+    color: #853ad6; background-image: -webkit-linear-gradient(180deg, #853ad6 19%, #e02af5 85%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+}
+.hero-right{
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    flex: 1;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex: 1.4;
+
+}
+
+.gap1{
+    gap: 30px;
+}
+.gap2{
+    gap: 20px;
+}
+@media (max-width:80rem){
+    .hero{
+        max-width: 60rem;
+        width: 85%;
+        
+    }
+    /* .hero-flex{
+        gap: 2rem;
+    } */
+}
+@media (max-width:48rem){
+    html {
+        font-size: 62.5%;
+    }
+    body {
+        font-size: 1.6rem;
+    }
+    
+}
+@media (max-width:20rem){
+    html {
+        font-size: 50%;
+    }
+    body {
+        font-size: 1.4rem;
+    }
+    
+    
+}
+@media (max-width:30rem){
+    html {
+        font-size: 62.5%;
+    }
+    body {
+        font-size: 1.6rem;
+    }
+    .hero-flex{
+        flex-direction: column;
+        height: 74vh;
+    }
+    .hero{
+        margin: 3% auto;
+        /* padding:3rem 1rem; */
+        border-top: 1px solid grey;
+        text-align: center;
+    }
+    .hero-left{
+        flex:1;
+    }
+    .hero-right{
+        flex: 1;
+    }
+}

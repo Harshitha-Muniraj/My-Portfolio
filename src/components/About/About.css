@@ -1,0 +1,43 @@
+.about{
+    width: 70%;
+    /* margin: auto; */
+    margin: 1% auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+
+    h2{
+        padding-bottom: 5px;
+    border-bottom: 5px solid #e02af5;
+    width: 16%;
+    text-align: center;
+    margin: auto;
+    }
+
+    p{
+        padding: 2rem 8rem;
+    }
+}
+
+@media (max-width:50rem){
+    .about{
+        
+        width: 100%;
+
+        h2{
+            width: fit-content;
+        }
+    }
+    .about-container p{
+        padding: 0 2rem;
+    }
+}

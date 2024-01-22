@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: rgb(20, 2, 44);
+background: radial-gradient(circle, rgb(22, 1, 50) 100%, rgba(57,45,105,1) 100%);
+    /* background: rgb(59,33,94);
+    background: radial-gradient(circle, rgba(59,33,94,1) 0%, rgba(68,32,103,1) 100%); */
+    /* background-color: lightblue;
+    
+    background-image: linear-gradient(to right,rgb(164, 223, 162),rgb(131, 198, 220)); */
+}
+
+ul{
+    list-style: none;
+}
