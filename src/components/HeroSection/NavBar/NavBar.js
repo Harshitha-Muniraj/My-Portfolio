@@ -7,7 +7,7 @@ const Navbar = () => {
   const [showClass,SetShowClass]=useState('')
   function toggle(){
     SetBtnToggle(!btnToggle);
-    
+    console.log("ss")
 
   }
   function res(){
@@ -27,11 +27,11 @@ const Navbar = () => {
       </div>
       <div >
         <ul className={`navlist ${showClass}` }style={btnToggle?{opacity:'1',visibility:'visible'}:null}>
-        <li className='navitem' onClick={()=>SetBtnToggle(!btnToggle)}><Link to='#home' spy={true} smooth={true} duration={500} offset={-100}>HOME</Link></li>
-        <li className='navitem' onClick={()=>SetBtnToggle(!btnToggle)}><Link to='#about' spy={true} smooth={true} duration={500} offset={-100}>ABOUT</Link></li>
-        <li className='navitem' onClick={()=>SetBtnToggle(!btnToggle)}><Link to='#skill' spy={true} smooth={true} duration={500} offset={-100}>SKILLS</Link></li>
-        <li className='navitem' onClick={()=>SetBtnToggle(!btnToggle)}><Link to='#project' spy={true} smooth={true} duration={500} offset={-100}>PROJECTS</Link></li>
-        <li className='navitem' onClick={()=>SetBtnToggle(!btnToggle)}><Link to='#contact' spy={true} smooth={true} duration={500} offset={-100}>CONTACT</Link></li>
+        <li className='navitem' ><Link to='#home' onClick={toggle} spy={true} smooth={true} duration={500} offset={-100}>HOME</Link></li>
+        <li className='navitem' ><Link to='#about' onClick={toggle} spy={true} smooth={true} duration={500} offset={-100}>ABOUT</Link></li>
+        <li className='navitem' ><Link to='#skill' onClick={toggle} spy={true} smooth={true} duration={500} offset={-100}>SKILLS</Link></li>
+        <li className='navitem' ><Link to='#project' onClick={toggle} spy={true} smooth={true} duration={500} offset={-100}>PROJECTS</Link></li>
+        <li className='navitem' ><Link to='#contact' onClick={toggle} spy={true} smooth={true} duration={500} offset={-100}>CONTACT</Link></li>
         </ul>
         
       </div>

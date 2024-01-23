@@ -39,6 +39,7 @@ h1{
     height: 4.8rem;
     width: 4.8rem;
     color: white;
+   
 }
 #icon-mobile-nav[name='close-outline']{
     display: none;
@@ -81,6 +82,7 @@ h1{
     }
     .resp-hide{
         display: none;
+        z-index: 999;
     }
     /* .navlist{
         opacity: 1;

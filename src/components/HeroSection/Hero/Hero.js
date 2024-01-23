@@ -15,7 +15,7 @@ const Hero = () => {
           
          </div>
          <div className='hero-left gap2' >
-            <p>lll</p>
+            <button><a href="Harshitha_Resume (2).pdf" download>Download CV {'    '} <ion-icon name="download"></ion-icon> </a> </button>
          </div>
         </div>
         <div className='hero-right'>
