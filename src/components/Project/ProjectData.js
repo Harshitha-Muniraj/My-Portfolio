@@ -1,31 +1,25 @@
 const ProjectData=[{
     id:1,
-    name:"Flight Booking",
+    name:"E-Commerce",
     description:"vffffdvsfvvvvvvvvvvvvbileuibv sakn     drubbvfnfknwenwenv mn kenvvnohvewn",
-    image:"",
+    image:"./assets/e-commerce.png",
     link:""
 },
 {
     id:2,
-    name:"E-Commerce",
+    name:"FbGram",
     description:"vffffdvsfvvvvvvvvvvvvbileuibv sakn     drubbvfnfknwenwenv mn kenvvnohvewn",
-    image:"",
+    image:"./assets/fbgram.png",
     link:""
 },
 {
     id:3,
-    name:"Instagram Clone",
+    name:"Quiz App",
     description:"vffffdvsfvvvvvvvvvvvvbileuibv sakn     drubbvfnfknwenwenv mn kenvvnohvewn",
-    image:"",
+    image:"./assets/quizpic.png",
     link:""
 },
-{
-    id:4,
-    name:"Expense Tracker",
-    description:"vffffdvsfvvvvvvvvvvvvbileuibv sakn     drubbvfnfknwenwenv mn kenvvnohvewn",
-    image:"",
-    link:""
-},
+
 ]
 
 export default ProjectData

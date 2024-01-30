@@ -15,18 +15,13 @@ const Hero = () => {
           
          </div>
          <div className='hero-left gap2' >
-            <button><a href="Harshitha_Resume (2).pdf" download>Download CV {'    '} <ion-icon name="download"></ion-icon> </a> </button>
+            <button ><a href="Resume_Harshitha.pdf" download> Download CV {'    '} <ion-icon name="download" id="download-btn"></ion-icon> </a> </button> 
          </div>
         </div>
         <div className='hero-right'>
-            {/* <div id='span-small' style={{backgroundImage:' linear-gradient(0, #743ad5, #d53a9d)',width:'6rem',height:'6rem',borderRadius:'50%',}}></div> */}
-            <span className='span-big'>
-            
-                <img src="pp.png" alt="my pic" />
-            
-            </span>
-            {/* <span id='span-small'></span> */}
-         
+          <span className='span-big'>
+            <img src="pp.png" alt="my pic" />
+          </span>
         </div>
       </div>
     </section>

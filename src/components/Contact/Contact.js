@@ -31,7 +31,7 @@ const Contact = () => {
           <div className='mob-mail'>
           <div className='small'>
             <p><ion-icon name="mail-outline" id='icons'></ion-icon></p>
-            <p onClick={() => window.location = 'mailto:harshithamuniraj22@gmail.com'}>harshithamuniraj22@gmail.com</p>
+            <p onClick={() => window.location = 'mailto:harshithamuniraj22@gmail.com'} >harshithamuniraj22@gmail.com</p>
           </div>
           <div className='small'>
             <p><ion-icon name="call-outline" id='icons'></ion-icon></p>
@@ -43,9 +43,9 @@ const Contact = () => {
         
       </div>
       <div   className='social-icons'>
-       <div ><ion-icon id='icons' name="logo-github"></ion-icon></div>
-        <div ><ion-icon id='icons' name="logo-linkedin"></ion-icon></div>
-        <div ><ion-icon id='icons' name="logo-instagram"></ion-icon></div>
+       <div ><a href='https://github.com/Harshitha-Muniraj'><ion-icon id='icons' name="logo-github"></ion-icon></a></div>
+        <div ><a href='https://www.linkedin.com/in/harshitha-m-918493221/'><ion-icon id='icons' name="logo-linkedin"></ion-icon></a></div>
+        <div ><a href='https://www.instagram.com/harshitha._.muniraj'><ion-icon id='icons' name="logo-instagram"></ion-icon></a></div>
     </div>
       
     </section>

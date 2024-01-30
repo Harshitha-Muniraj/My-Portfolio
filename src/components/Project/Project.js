@@ -3,19 +3,30 @@ import ProjectData from './ProjectData';
 import './Project.css'
 
 const Project = () => {
-  const data=[
-    {
-        title:'HTML',
-        image:"https://icon2.cleanpng.com/20180426/zue/kisspng-web-development-html-responsive-web-design-cascadi-5ae19e6b1412f6.0023511515247355950822.jpg"
-    },
-    {
-        title:"CSS",
-        image:"https://p7.hiclipart.com/preview/509/571/818/cascading-style-sheets-logo-css3-html-web-development-world-wide-web.jpg"
-    },
-    {
-        title:"JavaScript",
-        image:"https://p1.hiclipart.com/preview/951/574/485/react-logo-javascript-redux-vuejs-angular-angularjs-expressjs-front-and-back-ends-png-clipart.jpg"
-    },]
+  const data=[{
+    id:1,
+    class:"e-commerce",
+    name:"E-Commerce",
+    description:"vffffdvsfvvvvvvvvvvvvbileuibv sakn     drubbvfnfknwenwenv mn kenvvnohvewn",
+    image:"./assets/e-commerce.png",
+    link:""
+},
+{
+    id:2,
+    name:"FbGram",
+    class:"facebook",
+    description:"vffffdvsfvvvvvvvvvvvvbileuibv sakn     drubbvfnfknwenwenv mn kenvvnohvewn",
+    image:"./assets/fbgram.png",
+    link:""
+},
+{
+    id:3,
+    class:"quiz",
+    name:"Quiz App",
+    description:"vffffdvsfvvvvvvvvvvvvbileuibv sakn     drubbvfnfknwenwenv mn kenvvnohvewn",
+    image:"./assets/quizpic.png",
+    link:""
+},]
   return (
     <>
     <section className='project' id='#project'>
@@ -28,11 +39,14 @@ const Project = () => {
       {
                     data.map((item,index)=>{
                         return (
-                            <div key={index} className={`project-card ${item.title}`}>
+                            <div key={index} className="project-card">
                                 <figure>
-                                    <img src={item.image} style={{width:"100px"}}/>
+                                    <img src={item.image} className='project-img'/>
                                 </figure>
-                                <p>{item.title}</p>
+                                <div className={`project-details ${item.class}`}>
+                                <p>{item.name}</p>
+                                <button className='project-link'>Link</button>
+                                </div>
                             </div>
                         )
                     })

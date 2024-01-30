@@ -4,9 +4,13 @@
     margin: 9% auto;
    
     height:fit-content;
-
+ h2{
+    padding-bottom: 5px;
+    border-bottom: 5px solid #e02af5;
+ }
 
 }
+
 .project-flex{
     display: flex;
     flex-direction: column;
@@ -35,12 +39,38 @@
     border-radius: 10px;
     text-align: center;
 }
-.HTML{
-    background-color:  rgb(16, 4, 252);
+.project-img{
+    width: 100%;
+    height: 23vh;
+    object-fit: cover;
 }
-.CSS{
-    background-color:  rgb(16, 121, 3);
+.project-details{
+    height: 14.7vh;
+    
+    margin-top: -2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.JavaScript{
-    background-color:  rgb(253, 108, 4);
+.e-commerce{
+    background-color: #c3c1c1a6;
+}
+.facebook{
+    background-color: #0094ffde;
+}
+.quiz{
+    background-color: cadetblue;
+}
+.project-link{
+    max-width: 7rem;
+}
+@media(max-width:35rem){
+    .project-card{
+        max-width: 30rem;
+    }
+    .project-cards{
+        gap: 20px;
+    }
+    
 }
